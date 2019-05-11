@@ -15,7 +15,7 @@ class ListSidebar extends React.Component {
         <ListItem name="List 1" />
         <ListItem name="List 1" />
         <ListItem name="List 1" />
-        <ListItem name="List 1" />
+        <ListItem />
       </div>
     )
   }

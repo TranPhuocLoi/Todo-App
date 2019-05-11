@@ -1,16 +1,9 @@
+import React, { Component } from 'react'
 
-import React from 'react';
-import TodoApp from '..components/'
-import { Container, Row, Col } from 'reactstrap';
-import { Button } from 'reactstrap';
-import { Alert } from 'reactstrap';
+import TodoApp from './containers/TodoApp'
 
-const Example = (props) => {
-  return (
-    <div>
-      
-    </div>
-  );
-};
-
-export default Example;
+export default class App extends Component {
+  render() {
+    return <TodoApp />
+  }
+}
